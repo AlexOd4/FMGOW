@@ -10,12 +10,15 @@ public static class Name
         "TestScene02",
     };
 
+
+    #region Anim
     public enum Anim
     {
         None,
         FadeIn,
         FadeOut,
     }
+
     public static string SearchAnim(Anim anim)
     {
         switch (anim)
@@ -29,4 +32,6 @@ public static class Name
         }
         return "";
     }
+    #endregion
+
 }
