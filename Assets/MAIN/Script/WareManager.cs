@@ -5,14 +5,29 @@ using UnityEngine.SceneManagement;
 
 public class WareManager : MonoBehaviour
 {
+
+    //Canvas Prefab and canvas instance objects
     [SerializeField] private GameObject myCanvasManagerObject;
     private GameObject canvasObject;
-    public Animator WareAnim;
-    public AsyncOperation LoadingScene;
-    public string loadedScene;
+    
+    //Animator vars
+    public Animator wareAnim;
+    public bool animationIsEnded;
 
+    //Loading vars
+    public AsyncOperation loadingScene;
+    public string loadedScene;
     private bool isSceneLoaded;
-    private bool animationIsEnded;
+
+    //The highest Score done in a Local PC
+    public int highScore;
+
+    //Run's Score
+    public int warePoints;
+    public int levelPoints;
+    
+    public bool isWin;
+
     #region SET UP WareManager
     public static WareManager Instance;
     
@@ -24,31 +39,64 @@ public class WareManager : MonoBehaviour
         DontDestroyOnLoad(singletonObject);
         if (Instance == null) Instance = this;
 
+        Load();
 
         Shuffle(Name.allScenesToCharge);
         print(Name.allScenesToCharge[0]);
         canvasObject = Instantiate(myCanvasManagerObject, this.gameObject.transform);
-        WareAnim = canvasObject.GetComponent<Animator>();
+        wareAnim = canvasObject.GetComponent<Animator>();
     }
 
     private WareManager() { }
     #endregion
 
 
-    private void Start()
+    #region Save and Load Function
+    /// <summary>
+    /// Guarda los datos usando saveSystem
+    /// </summary>
+    public void Save()
     {
-        WareAnim.Play(Name.SearchAnim(Name.Anim.FadeIn));
+        SaveSystem.SavePlayer(this);
     }
+
+    /// <summary>
+    /// Carga los datos guardados
+    /// </summary>
+    public void Load()
+    {
+
+        PlayerData data = SaveSystem.LoadPlayer();
+        if (data == null)
+        {
+            Save();
+            data = SaveSystem.LoadPlayer();
+        }
+
+        highScore = data.globalScore;
+    }
+    #endregion
+
+
+    #region Unity Function 
 
     private void Update()
     {
         if (isSceneLoaded && animationIsEnded)
         {
-            WareAnim.Play("FadeOut");
-            isSceneLoaded = false;
+            wareAnim.Play("FadeOut");
+            isSceneLoaded = false; animationIsEnded = false;
         }
     }
 
+    public void OnLevelWasLoaded(int level)
+    {
+        isSceneLoaded = true;
+        loadingScene.allowSceneActivation = true;
+    }
+    #endregion
+
+    #region Scene function
     public string NextScene()
     {
         if (Name.allScenesToCharge.Count == 0)
@@ -61,11 +109,27 @@ public class WareManager : MonoBehaviour
         return loadedScene;
     }
 
-    public void OnLevelWasLoaded(int level)
+    public void OnEndLevel()
     {
-        isSceneLoaded = true;
-        LoadingScene.allowSceneActivation = true;
+        print("TIMER IS ENDED");
+        UpdateScore();
+        NextScene();
     }
+    
+    
+    
+    #endregion
+
+    public void UpdateScore()
+    {
+        warePoints += levelPoints;
+        if (warePoints > highScore)
+        {
+            highScore = warePoints;
+            Save();
+        }
+    }
+
 
     #region Private void
     private void Shuffle<T>(List<T> list)

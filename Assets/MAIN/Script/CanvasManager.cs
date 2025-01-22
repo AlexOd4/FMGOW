@@ -5,30 +5,35 @@ public class CanvasManager : MonoBehaviour
 {
     public void callWareManager() 
     { 
-        WareManager.Instance.LoadingScene = SceneManager.LoadSceneAsync(WareManager.Instance.NextScene());
-        WareManager.Instance.LoadingScene.allowSceneActivation = false;
+        WareManager.Instance.loadingScene = SceneManager.LoadSceneAsync(WareManager.Instance.NextScene());
+        WareManager.Instance.loadingScene.allowSceneActivation = false;
 
         switch (WareManager.Instance.loadedScene)
         {
             case "TestScene":
-                WareManager.Instance.WareAnim.Play("");
+                WareManager.Instance.wareAnim.Play(Name.SearchAnim(Name.Anim.PabloS));
                 return;
             case "TestScene01":
-                WareManager.Instance.WareAnim.Play("");
+                WareManager.Instance.wareAnim.Play(Name.SearchAnim(Name.Anim.PabloS));
                 return;
             case "TestScene02":
-                WareManager.Instance.WareAnim.Play("");
+                WareManager.Instance.wareAnim.Play(Name.SearchAnim(Name.Anim.PabloS));
                 return;
         }
     }
 
+    public void animationEnded()
+    {
+        WareManager.Instance.animationIsEnded = true;
+    }
+
     void ResetAllBools() 
     { 
-        foreach (AnimatorControllerParameter parameter in WareManager.Instance.WareAnim.parameters) 
+        foreach (AnimatorControllerParameter parameter in WareManager.Instance.wareAnim.parameters) 
         { 
             if (parameter.type == AnimatorControllerParameterType.Bool) 
             {
-                WareManager.Instance.WareAnim.SetBool(parameter.name, false); 
+                WareManager.Instance.wareAnim.SetBool(parameter.name, false); 
             } 
         } 
     }
