@@ -27,15 +27,15 @@ public class CanvasManager : MonoBehaviour
         WareManager.Instance.animationIsEnded = true;
     }
 
-    void ResetAllBools() 
-    { 
-        foreach (AnimatorControllerParameter parameter in WareManager.Instance.wareAnim.parameters) 
-        { 
-            if (parameter.type == AnimatorControllerParameterType.Bool) 
-            {
-                WareManager.Instance.wareAnim.SetBool(parameter.name, false); 
-            } 
-        } 
-    }
+    //void ResetAllBools() 
+    //{ 
+    //    foreach (AnimatorControllerParameter parameter in WareManager.Instance.wareAnim.parameters) 
+    //    { 
+    //        if (parameter.type == AnimatorControllerParameterType.Bool) 
+    //        {
+    //            WareManager.Instance.wareAnim.SetBool(parameter.name, false); 
+    //        } 
+    //    } 
+    //}
 
 }
