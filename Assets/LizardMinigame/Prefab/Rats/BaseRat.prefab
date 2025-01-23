@@ -137,10 +137,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ade961855ca752747a904aab92bc959c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 5
   direction: {x: -1, y: 0, z: 0}
   timeBetweenAttacks: 5
-  damage: 4
+  damage: 100
   lizardHealth: {fileID: 0}
 --- !u!114 &7638902952777372650
 MonoBehaviour:
