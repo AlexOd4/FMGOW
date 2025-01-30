@@ -222,7 +222,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -266,10 +266,10 @@ TextureImporter:
       name: pabloSAnimation_0
       rect:
         serializedVersion: 2
-        x: 41
-        y: 99
-        width: 18
-        height: 18
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,10 +288,10 @@ TextureImporter:
       name: pabloSAnimation_1
       rect:
         serializedVersion: 2
-        x: 169
-        y: 99
-        width: 18
-        height: 18
+        x: 128
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,10 +310,10 @@ TextureImporter:
       name: pabloSAnimation_2
       rect:
         serializedVersion: 2
-        x: 297
-        y: 99
-        width: 18
-        height: 18
+        x: 256
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,10 +332,10 @@ TextureImporter:
       name: pabloSAnimation_3
       rect:
         serializedVersion: 2
-        x: 323
-        y: 79
-        width: 19
-        height: 25
+        x: 384
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -354,10 +354,10 @@ TextureImporter:
       name: pabloSAnimation_4
       rect:
         serializedVersion: 2
-        x: 425
-        y: 99
-        width: 18
-        height: 18
+        x: 512
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -376,10 +376,10 @@ TextureImporter:
       name: pabloSAnimation_5
       rect:
         serializedVersion: 2
-        x: 443
-        y: 82
-        width: 19
-        height: 25
+        x: 640
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -398,10 +398,10 @@ TextureImporter:
       name: pabloSAnimation_6
       rect:
         serializedVersion: 2
-        x: 553
-        y: 85
-        width: 31
-        height: 32
+        x: 768
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -420,10 +420,10 @@ TextureImporter:
       name: pabloSAnimation_7
       rect:
         serializedVersion: 2
-        x: 681
-        y: 88
-        width: 27
-        height: 29
+        x: 896
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -442,10 +442,10 @@ TextureImporter:
       name: pabloSAnimation_8
       rect:
         serializedVersion: 2
-        x: 809
-        y: 85
-        width: 25
-        height: 32
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -464,10 +464,10 @@ TextureImporter:
       name: pabloSAnimation_9
       rect:
         serializedVersion: 2
-        x: 937
-        y: 84
-        width: 22
-        height: 33
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -486,10 +486,10 @@ TextureImporter:
       name: pabloSAnimation_10
       rect:
         serializedVersion: 2
-        x: 1065
-        y: 84
-        width: 22
-        height: 33
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -508,10 +508,10 @@ TextureImporter:
       name: pabloSAnimation_11
       rect:
         serializedVersion: 2
-        x: 1193
-        y: 86
-        width: 20
-        height: 31
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -530,10 +530,10 @@ TextureImporter:
       name: pabloSAnimation_12
       rect:
         serializedVersion: 2
-        x: 1321
-        y: 86
-        width: 20
-        height: 31
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -552,10 +552,10 @@ TextureImporter:
       name: pabloSAnimation_13
       rect:
         serializedVersion: 2
-        x: 82
-        y: 66
-        width: 19
-        height: 25
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -574,10 +574,10 @@ TextureImporter:
       name: pabloSAnimation_14
       rect:
         serializedVersion: 2
-        x: 203
-        y: 70
-        width: 19
-        height: 25
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -596,10 +596,10 @@ TextureImporter:
       name: pabloSAnimation_15
       rect:
         serializedVersion: 2
-        x: 1444
-        y: 61
-        width: 20
-        height: 31
+        x: 1920
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -618,10 +618,10 @@ TextureImporter:
       name: pabloSAnimation_16
       rect:
         serializedVersion: 2
-        x: 1562
-        y: 27
-        width: 26
-        height: 48
+        x: 2048
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -640,10 +640,10 @@ TextureImporter:
       name: pabloSAnimation_17
       rect:
         serializedVersion: 2
-        x: 26
-        y: 27
-        width: 21
-        height: 21
+        x: 2176
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -662,10 +662,10 @@ TextureImporter:
       name: pabloSAnimation_18
       rect:
         serializedVersion: 2
-        x: 154
-        y: 27
-        width: 21
-        height: 21
+        x: 2304
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -684,10 +684,10 @@ TextureImporter:
       name: pabloSAnimation_19
       rect:
         serializedVersion: 2
-        x: 282
-        y: 27
-        width: 21
-        height: 21
+        x: 2432
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -706,10 +706,10 @@ TextureImporter:
       name: pabloSAnimation_20
       rect:
         serializedVersion: 2
-        x: 410
-        y: 27
-        width: 21
-        height: 21
+        x: 2560
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -728,10 +728,10 @@ TextureImporter:
       name: pabloSAnimation_21
       rect:
         serializedVersion: 2
-        x: 538
-        y: 27
-        width: 21
-        height: 21
+        x: 2688
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -750,10 +750,10 @@ TextureImporter:
       name: pabloSAnimation_22
       rect:
         serializedVersion: 2
-        x: 666
-        y: 27
-        width: 21
-        height: 21
+        x: 2816
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -772,10 +772,10 @@ TextureImporter:
       name: pabloSAnimation_23
       rect:
         serializedVersion: 2
-        x: 794
-        y: 27
-        width: 21
-        height: 21
+        x: 2944
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -794,10 +794,10 @@ TextureImporter:
       name: pabloSAnimation_24
       rect:
         serializedVersion: 2
-        x: 922
-        y: 27
-        width: 21
-        height: 21
+        x: 3072
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -816,10 +816,10 @@ TextureImporter:
       name: pabloSAnimation_25
       rect:
         serializedVersion: 2
-        x: 1050
-        y: 27
-        width: 21
-        height: 21
+        x: 3200
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -838,10 +838,10 @@ TextureImporter:
       name: pabloSAnimation_26
       rect:
         serializedVersion: 2
-        x: 1178
-        y: 27
-        width: 21
-        height: 21
+        x: 3328
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -860,10 +860,10 @@ TextureImporter:
       name: pabloSAnimation_27
       rect:
         serializedVersion: 2
-        x: 1306
-        y: 27
-        width: 21
-        height: 21
+        x: 3456
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -882,10 +882,10 @@ TextureImporter:
       name: pabloSAnimation_28
       rect:
         serializedVersion: 2
-        x: 1434
-        y: 27
-        width: 21
-        height: 21
+        x: 3584
+        y: 0
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -900,495 +900,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: pabloSAnimation_29
-      rect:
-        serializedVersion: 2
-        x: 1690
-        y: 14
-        width: 22
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 510c1af59a7939e60800000000000000
-      internalID: 7967878919458242581
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pabloSAnimation_30
-      rect:
-        serializedVersion: 2
-        x: 1818
-        y: 12
-        width: 24
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 23a0b1a0f820bb910800000000000000
-      internalID: 1854078484966214194
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pabloSAnimation_31
-      rect:
-        serializedVersion: 2
-        x: 1946
-        y: 12
-        width: 24
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7b4bb054ebd65e580800000000000000
-      internalID: -8798505633028787017
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pabloSAnimation_32
-      rect:
-        serializedVersion: 2
-        x: 2074
-        y: 12
-        width: 24
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cf4110ab11ebac1f0800000000000000
-      internalID: -1023796981929011972
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pabloSAnimation_33
-      rect:
-        serializedVersion: 2
-        x: 2202
-        y: 12
-        width: 24
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f05b1a3665696c0d0800000000000000
-      internalID: -3402867170648935153
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pabloSAnimation_34
-      rect:
-        serializedVersion: 2
-        x: 2330
-        y: 11
-        width: 27
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9987fa9c6e022ac00800000000000000
-      internalID: 910326250280548505
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pabloSAnimation_35
-      rect:
-        serializedVersion: 2
-        x: 2458
-        y: 11
-        width: 27
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2600c0b343303a500800000000000000
-      internalID: 406171914257301602
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pabloSAnimation_36
-      rect:
-        serializedVersion: 2
-        x: 2586
-        y: 11
-        width: 27
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1ee1434332adf9590800000000000000
-      internalID: -7665168196026753311
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pabloSAnimation_37
-      rect:
-        serializedVersion: 2
-        x: 2714
-        y: 11
-        width: 27
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8cdb5cea9a55517c0800000000000000
-      internalID: -4101277698380939832
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pabloSAnimation_38
-      rect:
-        serializedVersion: 2
-        x: 2842
-        y: 13
-        width: 36
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8b1851072ad41f6b0800000000000000
-      internalID: -5264341129358900808
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pabloSAnimation_39
-      rect:
-        serializedVersion: 2
-        x: 2970
-        y: 27
-        width: 21
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: efee84918b69d8750800000000000000
-      internalID: 6308864370458291966
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pabloSAnimation_40
-      rect:
-        serializedVersion: 2
-        x: 2997
-        y: 22
-        width: 19
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2baed4056f8595760800000000000000
-      internalID: 7447081273766308530
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pabloSAnimation_41
-      rect:
-        serializedVersion: 2
-        x: 3098
-        y: 27
-        width: 21
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 65aa89b8c403488b0800000000000000
-      internalID: -5150938968487318954
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pabloSAnimation_42
-      rect:
-        serializedVersion: 2
-        x: 3132
-        y: 29
-        width: 19
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7038b36da88f5b850800000000000000
-      internalID: 6392288521305686791
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pabloSAnimation_43
-      rect:
-        serializedVersion: 2
-        x: 3226
-        y: 27
-        width: 21
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4309ebda82dafb450800000000000000
-      internalID: 6106790009962926132
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pabloSAnimation_44
-      rect:
-        serializedVersion: 2
-        x: 3260
-        y: 32
-        width: 19
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 98a999879c5b78440800000000000000
-      internalID: 4938115393351424649
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pabloSAnimation_45
-      rect:
-        serializedVersion: 2
-        x: 3354
-        y: 27
-        width: 21
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d0456ff6c95d5f230800000000000000
-      internalID: 3672075939060536333
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pabloSAnimation_46
-      rect:
-        serializedVersion: 2
-        x: 3388
-        y: 32
-        width: 19
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 943b533fa56dba120800000000000000
-      internalID: 2426268510384927561
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pabloSAnimation_47
-      rect:
-        serializedVersion: 2
-        x: 3482
-        y: 27
-        width: 21
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b5aebd9f278b2dbc0800000000000000
-      internalID: -3759739934943221157
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pabloSAnimation_48
-      rect:
-        serializedVersion: 2
-        x: 3516
-        y: 32
-        width: 19
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 01e853249394d7280800000000000000
-      internalID: -9043991966417318384
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pabloSAnimation_49
-      rect:
-        serializedVersion: 2
-        x: 3610
-        y: 27
-        width: 21
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1f4e0498d4ec8b0d0800000000000000
-      internalID: -3406746285695245071
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pabloSAnimation_50
-      rect:
-        serializedVersion: 2
-        x: 3644
-        y: 32
-        width: 19
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a99b53a46bb5e3890800000000000000
-      internalID: -7476437492901234278
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c1ee215d88e1dad4898994ded55dc565
     internalID: 0
     vertices: []
     indices: 
@@ -1420,31 +936,9 @@ TextureImporter:
       pabloSAnimation_26: 8059083348337561343
       pabloSAnimation_27: 4019587899803542665
       pabloSAnimation_28: -6964773896309480998
-      pabloSAnimation_29: 7967878919458242581
       pabloSAnimation_3: -5911672934706555498
-      pabloSAnimation_30: 1854078484966214194
-      pabloSAnimation_31: -8798505633028787017
-      pabloSAnimation_32: -1023796981929011972
-      pabloSAnimation_33: -3402867170648935153
-      pabloSAnimation_34: 910326250280548505
-      pabloSAnimation_35: 406171914257301602
-      pabloSAnimation_36: -7665168196026753311
-      pabloSAnimation_37: -4101277698380939832
-      pabloSAnimation_38: -5264341129358900808
-      pabloSAnimation_39: 6308864370458291966
       pabloSAnimation_4: 2137134493557309389
-      pabloSAnimation_40: 7447081273766308530
-      pabloSAnimation_41: -5150938968487318954
-      pabloSAnimation_42: 6392288521305686791
-      pabloSAnimation_43: 6106790009962926132
-      pabloSAnimation_44: 4938115393351424649
-      pabloSAnimation_45: 3672075939060536333
-      pabloSAnimation_46: 2426268510384927561
-      pabloSAnimation_47: -3759739934943221157
-      pabloSAnimation_48: -9043991966417318384
-      pabloSAnimation_49: -3406746285695245071
       pabloSAnimation_5: 8783570302272084756
-      pabloSAnimation_50: -7476437492901234278
       pabloSAnimation_6: -7337860005023682202
       pabloSAnimation_7: -9049640839288582804
       pabloSAnimation_8: 117108365255797173

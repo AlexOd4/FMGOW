@@ -6,8 +6,8 @@ public static class Name
 {
     public static List<string> allScenesToCharge = new List<string> { 
         "TestScene",
-        "TestScene01",
-        "TestScene02",
+        "PabloSLevel",
+        "JesusCLevel",
     };
 
 
@@ -19,6 +19,7 @@ public static class Name
         Loose,
         PabloS,
         JuanM,
+        JesusC,
         FadeOut,
         End
     }
@@ -37,6 +38,8 @@ public static class Name
                 return "InstruccionPabloS";
             case Anim.JuanM:
                 return "InstruccionJuanM";
+            case Anim.JesusC:
+                return "InstruccionJesusC";
             case Anim.FadeOut:
                 return "FadeOut";
             case Anim.End:

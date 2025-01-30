@@ -13,10 +13,10 @@ public class CanvasManager : MonoBehaviour
             case "TestScene":
                 WareManager.Instance.wareAnim.Play(Name.SearchAnim(Name.Anim.PabloS));
                 return;
-            case "TestScene01":
+            case "PabloSLevel":
                 WareManager.Instance.wareAnim.Play(Name.SearchAnim(Name.Anim.PabloS));
                 return;
-            case "TestScene02":
+            case "JesusCLevel":
                 WareManager.Instance.wareAnim.Play(Name.SearchAnim(Name.Anim.PabloS));
                 return;
         }
