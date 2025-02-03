@@ -1,0 +1,108 @@
+using DG.Tweening;
+using System.Collections.Generic;
+using UnityEngine;
+using static Morsa_Glossary;
+
+public class Morsa_ClientBehaviour : MonoBehaviour
+{
+    [Header("Projection")]
+    [SerializeField] SpriteRenderer bodyRenderer;
+    [SerializeField] Animator bodyAnimator;
+    [SerializeField] Animator eyesAnimator;
+    float animSpeed = 0.5f;
+
+    [Header("Speeches")]
+    [SerializeField] Morsa_SpeechBehaviour pastSpeech;
+    [SerializeField] Morsa_SpeechBehaviour presentSpeech;
+    [SerializeField] Morsa_SpeechBehaviour futureSpeech;
+
+    List<Property> past = new();
+    List<Property> present = new();
+    List<Property> future = new();
+
+    Morsa_SlotBehaviour pastSlot;
+    Morsa_SlotBehaviour presentSlot;
+    Morsa_SlotBehaviour futureSlot;
+
+    bool scored = false;
+
+    void FixedUpdate()
+    {
+        bodyAnimator.SetFloat("speed", animSpeed);
+        eyesAnimator.SetFloat("speed", animSpeed);
+
+        if (!scored && pastSlot.card != null && presentSlot.card != null && futureSlot.card != null)
+        {
+            scored = true;
+            Score();
+            StartCoroutine(Morsa_RoundManager.instance.EndRound());
+        }
+    }
+
+    public void SetProperties(Morsa_SlotBehaviour _pastSlot, Morsa_SlotBehaviour _presentSlot, Morsa_SlotBehaviour _futureSlot)
+    {
+        animSpeed = 0.5f;
+
+        bodyRenderer.color = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
+
+        // Set slots
+        pastSlot = _pastSlot;
+        presentSlot = _presentSlot;
+        futureSlot = _futureSlot;
+
+        // Past
+        past.Add(GetRandomProperty());
+
+        // Present
+        present.Add(GetRandomProperty());
+
+        // Future
+        future.Add(GetRandomProperty());
+
+        Invoke("Speak", 1f);
+    }
+
+    public void Speak()
+    {
+        animSpeed = 0.2f;
+
+        pastSpeech.Show(past[0]);
+        presentSpeech.Show(present[0]);
+        futureSpeech.Show(future[0]);
+    }
+
+    void Score()
+    {
+        animSpeed = 0.5f;
+
+        pastSpeech.Hide();
+        presentSpeech.Hide();
+        futureSpeech.Hide();
+
+        int totalScore = 0;
+
+        int score = 1;
+        foreach (Property p in past)
+        {
+            if (score > 0 && pastSlot.card.GetProperties().Contains(GetProperty(p))) totalScore += score;
+            else score--;
+        }
+
+        score = 1;
+        foreach (Property p in present)
+        {
+            if (score > 0 && presentSlot.card.GetProperties().Contains(GetProperty(p))) totalScore += score;
+            else score--;
+        }
+
+        score = 1;
+        foreach (Property p in future)
+        {
+            if (score > 0 && futureSlot.card.GetProperties().Contains(GetProperty(p))) totalScore += score;
+            else score--;
+        }
+
+        Morsa_RoundManager.instance.Score(totalScore);
+        Debug.Log(totalScore);
+    }
+}
