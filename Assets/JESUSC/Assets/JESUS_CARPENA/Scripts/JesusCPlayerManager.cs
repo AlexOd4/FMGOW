@@ -29,7 +29,6 @@ public class JesusCPlayerManager : MonoBehaviour
         {
             WareManager.Instance.isWin = true;
             WareManager.Instance.wareAnim.Play("Win");
-            WareManager.Instance.OnEndLevel();
 
         }
 
@@ -37,7 +36,6 @@ public class JesusCPlayerManager : MonoBehaviour
         {
             WareManager.Instance.isWin = true;
             WareManager.Instance.wareAnim.Play("Loose");
-            WareManager.Instance.OnEndLevel();
         }
     }
 }

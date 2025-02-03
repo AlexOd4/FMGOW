@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4446446512132428014}
   - component: {fileID: 6259222554859197987}
   - component: {fileID: 2886630290789730592}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115,7 +115,7 @@ GameObject:
   - component: {fileID: 3135541429294590659}
   - component: {fileID: 3449182811495066229}
   - component: {fileID: 4011974762704326123}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Chameleon
   m_TagString: Lizard
   m_Icon: {fileID: 0}
@@ -264,7 +264,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2638304771160399081}
   - component: {fileID: 4880624773815786323}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TipSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -352,7 +352,7 @@ GameObject:
   - component: {fileID: 1854876173062998098}
   - component: {fileID: 7304738933047604193}
   - component: {fileID: 8291173756580041042}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tongue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -506,7 +506,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5972782115813044136}
   - component: {fileID: 6709057260859686795}
-  m_Layer: 3
+  m_Layer: 6
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}

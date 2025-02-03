@@ -11,6 +11,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/LIZARDMINIGAME/Minigame/PabloSLevel.unity
     guid: 174ffd32aefd53644aa9d360a93c8a3d
+  - enabled: 1
+    path: Assets/MAIN/Scenes/EndGame.unity
+    guid: af4330b8e7fc3564ca3d6889ce5124ec
+  - enabled: 1
+    path: Assets/Alberto/Scenes/AlbertoLevel.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/JESUSC/Assets/JESUS_CARPENA/Scenes/JesusCLevel.unity
+    guid: 8a1a5982334418c45865dcad3de296a4
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 287f950476eb38c499c6b2624a36f7f8, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 98e21529cf1796041b7c1e05cdb20e6a, type: 2}

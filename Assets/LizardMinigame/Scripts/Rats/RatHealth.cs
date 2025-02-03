@@ -39,7 +39,6 @@ public class RatHealth : MonoBehaviour, IHealth
 
     public void Death()
     {
-        PabloGameManager.instance.AddPoint((int)maxHealth);
         Destroy(gameObject);
     }
 

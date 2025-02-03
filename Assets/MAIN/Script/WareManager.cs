@@ -26,6 +26,8 @@ public class WareManager : MonoBehaviour
     public int warePoints;
     public int levelPoints;
     
+   
+
     public bool isWin;
 
     #region SET UP WareManager
@@ -41,8 +43,7 @@ public class WareManager : MonoBehaviour
 
         Load();
 
-        Shuffle(Name.allScenesToCharge);
-        print(Name.allScenesToCharge[0]);
+        //Shuffle(Name.allScenesToCharge);
         canvasObject = Instantiate(myCanvasManagerObject, this.gameObject.transform);
         wareAnim = canvasObject.GetComponent<Animator>();
     }
@@ -101,14 +102,13 @@ public class WareManager : MonoBehaviour
     {
         if (Name.allScenesToCharge.Count == 0)
         {
-            loadedScene = "endGame";
-            return "endGame";
+            loadedScene = "EndGame";
+            return "EndGame";
         }
         loadedScene = Name.allScenesToCharge[0];
         Name.allScenesToCharge.RemoveAt(0);
         return loadedScene;
     }
-
     public void OnEndLevel()
     {
         print("TIMER IS ENDED");

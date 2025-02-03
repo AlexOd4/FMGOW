@@ -5,9 +5,9 @@ using UnityEngine;
 public static class Name
 {
     public static List<string> allScenesToCharge = new List<string> { 
-        "TestScene",
-        "PabloSLevel",
         "JesusCLevel",
+        "AlbertoLevel",
+        "PabloSLevel",
     };
 
 

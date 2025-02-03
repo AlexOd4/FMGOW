@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 29883609013066506}
   - component: {fileID: 5175423093297469639}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Hat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101,7 +101,7 @@ GameObject:
   - component: {fileID: 8103092377787663315}
   - component: {fileID: 1505890966674836398}
   - component: {fileID: 7445732254695848541}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: BaseRat
   m_TagString: Rat
   m_Icon: {fileID: 0}
@@ -137,8 +137,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ade961855ca752747a904aab92bc959c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  direction: {x: -1, y: 0, z: 0}
+  speed: 20
+  direction: {x: -4, y: 0, z: 0}
   timeBetweenAttacks: 5
   damage: 100
   lizardHealth: {fileID: 0}
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89780a132ab3d9f41b141ed25f87a8d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 1
 --- !u!65 &8103092377787663315
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -301,7 +301,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1977114039633163397}
   - component: {fileID: 8085918703712333440}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
